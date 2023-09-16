@@ -1,22 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turning Head</title>
     <!-- normalized css -->
-    <link rel="stylesheet" href="./style/normalized.css">
+    <link rel="stylesheet" href="./style/normalized.css" />
     <!-- fontAwesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Customized css -->
-    <link rel="stylesheet" href="./style/customized.css">
-</head>
+    <link rel="stylesheet" href="./style/customized.css" />
+  </head>
 
-<body>
+  <body>
     <!--Contents needs to places here!-->
+    <div class="header-container">
+      <!-- search & social header -->
+      <div class="bg-black">
+        <div
+          class="flex justify-content-between bg-black clr-white search-head p-1 ml mr"
+        >
+          <div class="left gap-1">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <p>Search...</p>
+          </div>
+          <div class="right gap-2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <!-- main header -->
+      <div
+        class="flex justify-content-between bg-transparent p-2 ml mr main-head"
+      >
+        <div class="left">
+          <h3>Turning head</h3>
+        </div>
+        <div class="right gap-2">
+          <p class="pointer hover-item weight-600">Home</p>
+          <p class="pointer hover-item weight-600">My Blog</p>
+          <p class="pointer hover-item weight-600">About</p>
+          <p class="pointer hover-item weight-600">Contact</p>
+        </div>
+      </div>
+    </div>
     <script src="./script/script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -76,3 +76,127 @@ a {
 i {
     font-size: 16px
 }
+
+/* font-weight */
+.weight-600 {
+    font-weight: 600;
+}
+.weight-700 {
+    font-weight: 700;
+}
+
+/* margin */
+.mt {
+    margin-top: auto;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 1.8rem;
+}
+
+.mt-3 {
+    margin-top: 2.5rem;
+}
+
+.ml {
+    margin-left: auto;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 1.8rem;
+}
+
+.ml-3 {
+    margin-left: 2.5rem;
+}
+
+.mr {
+    margin-right: auto;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mr-2 {
+    margin-right: 1.8rem;
+}
+
+.mr-3 {
+    margin-right: 2.5rem;
+}
+
+/* padding */
+.p-1 {
+    padding: 0.7rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2.5rem;
+}
+
+.p-4 {
+    padding: 3.5rem;
+}
+
+/* colors */
+
+.bg-black {
+    background-color: black;
+}
+
+.clr-white {
+    color: white;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+/* behavior */
+
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.gap-2 {
+    display: flex;
+    gap: 2rem;
+}
+
+/* pointers */
+
+.pointer {
+    cursor: pointer;
+}
+
+.hover-item:hover {
+    color: var(--clr-brown);
+}
+
+.search-head,
+.main-head {
+    width: calc(100% - 80px - 80px);
+    min-width: 980px;
+}
