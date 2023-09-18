@@ -19,8 +19,8 @@
   </head>
 
   <body>
-    <!--Contents needs to places here!-->
-    <div class="header-container">
+    <!-- header -->
+    <header class="header-container">
       <!-- search & social header -->
       <div class="bg-black">
         <div
@@ -52,7 +52,7 @@
           <p class="pointer hover-item font-sm weight-600">Contact</p>
         </div>
       </div>
-    </div>
+    </header>
     <!-- hero section -->
     <section class="hero-container mt-6">
       <div class="flex justify-content-between gap-1">
@@ -84,7 +84,6 @@
         </div>
       </div>
     </section>
-
     <!-- main section -->
     <main class="flex justify-content-between gap-1 mt-6 ml mr main-section">
       <div class="left flex-d-c gap-2">
@@ -141,7 +140,9 @@
           </div>
         </div>
         <div class="mt-3">
-          <button class="btn bg-brown clr-white mt-6" style="width: 25%;">Add Post</button>
+          <button class="btn bg-brown clr-white mt-6" style="width: 25%">
+            Add Post
+          </button>
         </div>
       </div>
       <div class="right">
@@ -173,7 +174,9 @@
               <img src="assets/06.jpg" alt="" srcset="" class="insta-pics" />
             </div>
           </div>
-          <div class="social-links mt-3 ml mr mb-3 flex justify-content-center gap-2 clr-black font-l">
+          <div
+            class="social-links mt-3 ml mr mb-3 flex justify-content-center gap-2 clr-black font-l"
+          >
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-twitter"></i>
@@ -182,6 +185,42 @@
         </div>
       </div>
     </main>
+    <!-- footer -->
+    <footer class="footer-container mt-5">
+      <div class="footer-content">
+        <h3 class="text-center mt-5 font-lr">
+          Let me know what's on your mind
+        </h3>
+        <div style="width: 500px" class="mt-3 mb-5">
+          <div
+            class="reg-form content-font flex justify-content-center flex-wrap"
+          >
+            <div class="flex-d-c">
+              <label for="firstName">First Name</label>
+              <input type="text" />
+            </div>
+            <div class="flex-d-c">
+              <label for="lastName">Last Name</label>
+              <input type="text" />
+            </div>
+            <div class="flex-d-c">
+              <label for="email">Email*</label>
+              <input type="email" />
+            </div>
+            <div class="flex-d-c">
+              <label for="message">Leave us message...</label>
+              <input type="text" />
+            </div>
+            <div>
+              <button class="submit-btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-brown clr-white text-center content-font p-1">
+      <p>© 2035 by Turning Heads. Powered and secured by Wix</p>
+    </div>
     <script src="./script/script.js"></script>
   </body>
 </html>
